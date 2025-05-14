@@ -1,0 +1,21 @@
+.btn-custom {
+  border-radius: 30px;
+  padding: 16px 86px;
+  width: 277px;
+  height: 56px;
+  background: var(--accent);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &_disabled {
+    background: var(--disabled);
+    pointer-events: none;
+  }
+}

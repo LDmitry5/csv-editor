@@ -1,0 +1,29 @@
+:root {
+  --ligth-white: #f1f1f1;
+  --accent: #5f5cf0;
+  --grey: #a5a5a5;
+  --frame-background: rgba(255, 255, 255, 0.4);
+  --border-color: rgba(204, 204, 206, 0.28);
+  --disabled: #bbb9d2;
+  --white: #fff;
+  --error: #e37b7b;
+  --overlay: rgba(68, 68, 68, 0.77);
+  --accent: #5f5cf0;
+  --for-docs-pic: #454559;
+  --for-docs-pic-white: rgba(255, 255, 255, 0.2);
+  --for-docs-pic-dark: #454559;
+  --for-docs-pic-text-color: rgba(44, 44, 44, 0.2);
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 60px 74px 57px;
+  gap: 41px;
+  height: 100vh;
+}

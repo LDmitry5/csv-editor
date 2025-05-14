@@ -1,0 +1,19 @@
+{
+  "name": "webapp-csv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "csvtojson": "^2.0.10",
+    "papaparse": "^5.5.2"
+  }
+}
